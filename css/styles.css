@@ -1,0 +1,211 @@
+/* MAIN STYLES ----------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+/* NAV -------------- */
+
+.main-nav {
+  background: #66cbcc;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #424344;
+  padding: 20px;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav li {
+}
+
+/* TITLE STYLES ------------- */
+
+.name {
+  display: block;
+  margin: 0;
+  padding-top: 105px;
+  color: #fff;
+  font-size: 2.7em;
+  font-weight: 750;
+  font-family: 'Martel Sans', sans-serif;
+}
+
+.profile {
+  background: #6edcdd;
+  height: 375px;
+}
+
+.description {
+  padding: 0 20px;
+  font-size: 1.0em;
+  color: #4e4f51;
+}
+
+/* SKILL STYLES ---------- */
+
+.skills {
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills .subHeading {
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.skillList {
+  list-style-type: none;
+  color: #fff;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 77%;
+  justify-content: space-around;
+}
+
+.skillList li {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+/* PORTFOLIO STYLES ---------- */
+
+.portfolio {
+  background: #c8d1cf;
+  color: #4e4f51;
+  padding-bottom: 20px;
+}
+
+.content {
+}
+
+ .subHeading {
+   letter-spacing: .1em;
+   margin: 0;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   flex: 1 100%;
+ }
+
+ .projectButton {
+ }
+
+
+/* IMAGES ------------ */
+
+.projects {
+  width: 375px;
+  height: 250px;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+.mePic {
+  border-radius: 50%;
+}
+
+/* CONTACT ---------- */
+
+.footer {
+  background: #fff;
+  color: #4e4f51;
+  max-width: 80%;
+  padding-left: 20%;
+}
+
+.email,
+.phone {
+  text-decoration: none;
+  color: #4e4f51;
+}
+/*#contact {
+  color: #fff;
+}*/
+
+/* MEDIA QUERIES ---------- */
+
+@media (min-width: 498px) {
+  .name {
+    font-size: 3.7em;
+  }
+
+  .description {
+    font-size: 1.3em;
+  }
+
+  .nav a,
+  .projectTitle {
+    font-size: 1.1;
+  }
+
+  .projects {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 764px) {
+  .nameAndPic {
+    float: left;
+  }
+
+  .contactInfo {
+    float: right;
+  }
+
+  .footer {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 982px) {
+
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: auto;
+  }
+
+  .content {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .skills {
+    font-size: 1.3em;
+  }
+
+  .footer {
+    max-width: 95%;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1183px) {
+  .projects {
+    width: 550px;
+    height: 370px;
+  }
+}
