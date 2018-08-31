@@ -222,10 +222,6 @@ body {
     font-size: 1.3em;
   }
 
-  .footer {
-    max-width: 95%;
-    padding-left: 5%;
-  }
 }
 
 @media (min-width: 1183px) {
