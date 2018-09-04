@@ -86,6 +86,7 @@ body {
 .skillList li {
   border: 1px solid #fff;
   padding: 5px;
+  margin-bottom: 5px;
 }
 
 /* PORTFOLIO STYLES ---------- */
