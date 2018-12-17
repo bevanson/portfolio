@@ -13,6 +13,9 @@ body {
 
 .main-nav {
   background: #66cbcc;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav a {
@@ -27,7 +30,6 @@ body {
   margin: 0 30px;
   display: flex;
   justify-content: center;
-
 }
 
 .nav li {
@@ -88,6 +90,7 @@ body {
   padding: 5px;
   margin-bottom: 5px;
 }
+
 
 /* PORTFOLIO STYLES ---------- */
 
@@ -150,6 +153,23 @@ body {
 .mePic {
   border-radius: 50%;
 }
+
+/*.content img {
+  z-index: 1;
+  position: relative;
+
+}*/
+.text {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  padding: 20px 15px 30px 15px;
+  border: 1px grey solid;
+  margin: -205px 30px 80px 30px;
+  border-radius: 2%;
+  opacity: 2;
+}
+
 
 /* CONTACT ---------- */
 
