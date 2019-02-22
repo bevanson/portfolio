@@ -7,18 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Martel+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
   <header id="home">
-      <div class="main-nav clearfix">
+      <div id="nav" class="main-nav clearfix">
+        <ul class="navLogo">
+          <li><a id=details class="logo" href="#home">BEvanson</a></li>
+        </ul>
         <ul class="nav">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#portfolioSection">PORTFOLIO</a></li>
-          <li><a href="#footer">CONTACT</a></li>
+          <li><a id=details href="#home">HOME</a></li>
+          <li><a id=details href="#portfolioSection">PORTFOLIO</a></li>
+          <li><a id=details href="#footer">CONTACT</a></li>
         </ul>
       </div>
   </header>
@@ -27,23 +33,6 @@
       <h1 id="math" class="name">Brandon Evanson</h1>
       <p class="description">Hi! I'm a Front End Developer who loves responsive design and css.
          </p>
-    </div>
-
-
-    <div class="skills">
-
-      <h2 id="payBills" class="subHeading">Skills</h2>
-      <ul id="skills" class="skillList">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Sass</li>
-        <li>Bootstrap</li>
-        <li>GitHub</li>
-        <li>DevTools</li>
-      </ul>
-
     </div>
 
 
@@ -56,8 +45,8 @@
 
       <div class="content">
         <h3 class="projectTitle">JavaScript Guessing Game</h3>
-        <img class="projects" src="images/guessingGame.png" alt="Responsive Grid Layout">
-        <p class="text" style="display:none">On this project I used JavaScript to listen for letters to be clicked.  If letter is in movie then letter displays on screen.</p>
+          <img class="projects" src="images/guessingGame.png" alt="Responsive Grid Layout">
+          <p class="text" style="display:none">On this project I used JavaScript to listen for letters to be clicked.  If letter is in movie then letter displays on screen.</p>
         <ul class="websiteLinks">
           <li><a href="https://bevanson.github.io/game/" class="projectButton" target="_blank">Visit Site!</a></li>
           <li><a href="https://github.com/bevanson/game" class="projectButton" target="_blank">Veiw Code!</a></li>
@@ -79,10 +68,8 @@
 
       <div class="content">
         <h3 class="projectTitle">Media Player</h3>
-
-        <img class="projects" src="images/interactiveVideo.png" alt="Media Player">
-        <p class="text" style="display:none">For this project I used a jQuery plugin to update the video player.  I used JavaScript to have the highlighted area match the words that are being said.</p>
-
+          <img class="projects" src="images/interactiveVideo.png" alt="Media Player">
+          <p class="text" style="display:none">For this project I used a jQuery plugin to update the video player.  I used JavaScript to have the highlighted area match the words that are being said.</p>
         <ul class="websiteLinks">
           <li><a href="https://bevanson.github.io/techdegree_project_6/" class="projectButton" target="_blank">Visit Site!</a></li>
           <li><a href="https://github.com/bevanson/techdegree_project_6" class="projectButton" target="_blank">View Code!</a></li>
@@ -113,6 +100,21 @@
 
 
     </div>
+    <div class="skills">
+
+      <h2 id="payBills" class="subHeading">Technical Skills</h2>
+      <div class="skillList">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>jQuery</div>
+        <div>Sass</div>
+        <div>Bootstrap</div>
+        <div>GitHub</div>
+        <div>DevTools</div>
+        <div>OOP</div>
+    </div>
+    </div>
 
   <footer id="footer">
     <div class="footer clearfix">
@@ -131,6 +133,9 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+  <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>
