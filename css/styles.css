@@ -20,12 +20,17 @@ body {
   padding-top: 2%;
 }
 
-.nav a,
-.navLogo a {
+.nav a {
   text-decoration: none;
   color: #fff;
   padding: 20px;
+}
 
+.navLogo a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.5px solid #fff !important;
+  padding: 5px;
 }
 
 .nav a:hover,
@@ -39,7 +44,7 @@ body {
 .nav {
   list-style-type: none;
   padding: 10px;
-  margin: 0 30px;
+  margin: 0 30px 10px 30px;
   display: flex;
   justify-content: center;
 }
@@ -61,7 +66,7 @@ body {
   display: block;
   margin: 0;
   padding-top: 105px;
-  color: #bbbbbb;
+  color: #ddd;
   font-size: 2.1em;
   font-weight: 750;
   font-family: 'Nanum Gothic', sans-serif;
@@ -76,13 +81,13 @@ body {
 .description {
   padding: 0 20px;
   font-size: 12.8px;
-  color: #eeeeee;
+  color: #ddd;
 }
 
 /* SKILL STYLES ---------- */
 
 .skills {
-  background: #232626;
+  background: #191919;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -135,13 +140,20 @@ body {
 /* Styles to website links */
 
 .projectButton {
+  color: #494949 !important;
   text-decoration: none;
-  color: #fff;
-  background-color: #1ba8c1;
-  border: 2px solid #1ba8c1;
-  border-radius: 10%;
-  padding: 3px;
-  font-weight: bold;
+  text-transform: uppercase;
+  background: #f2f2f2;
+  padding: 10px;
+  border: 3px solid #494949 !important;
+  border-radius: 6px;
+  display: inline-block;
+}
+.projectButton:hover {
+  color: #1ba8c1 !important;
+  border-radius: 50px;
+  border-color: #1ba8c1 !important;
+  transition: all 0.3s ease 0s;
 }
 
 .content li {
@@ -209,6 +221,21 @@ body {
   padding-left: 20%;
 }
 
+.contactInfo {
+  padding-bottom: 10%;
+}
+
+.contactSVGS {
+  width:  25px;
+  height: 25px;
+}
+
+.svgCopyWrite a {
+  text-decoration: none;
+  color: #1ba8c1;
+
+}
+
 .email,
 .phone {
   text-decoration: none;
@@ -259,12 +286,12 @@ body {
   .name{
     font-size: 2.6em;
   }
-  .nameAndPic {
+  /*.nameAndPic {
     float: left;
   }
-
+  */
   .contactInfo {
-    float: right;
+    padding-bottom: 5%;
   }
 
   .footer {
